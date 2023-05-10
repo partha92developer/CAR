@@ -1,0 +1,413 @@
+/* Import Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+html{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+p, a{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif; 
+}
+img{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+a{
+    display: inline-flex;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+    text-decoration: none;
+}
+/* ===================================== Default CSS === END  */
+/* =============================================================== Created Default Class === START  */
+/* ================================= Button -- START */
+
+.butn-wrap{
+    display: flex;
+}
+
+a.butn, .butn, input.butn-submit, .butn-submit{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 120px;
+    min-height: 45px;
+    padding: 3px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+    /* letter-spacing: 0.3px; */
+    border-radius: 0;
+    color: #fff;
+    background-color: #1a1a1a;
+    border: 1px solid transparent;  
+}
+
+/* ============= Button Types */
+a.butn:hover{
+    background-color: #6b6b6b;
+}
+a.butn.butn-2{
+    background-color: #fff;
+    color: #212121;
+}
+a.butn.butn-2:hover{
+    background-color: #7e7d7d;
+}
+a.butn.butn-5{
+    background-color: #fff;
+    color: #1a1a1a;
+}
+a.butn.butn-5:hover{
+    background-color: #7e7d7d;
+}
+a.butn.butn-7{
+    background-color: #fff;
+    color: #1a1a1a;
+    padding: 3px 50px;
+}
+a.butn.butn-7:hover{
+    background-color: #7e7d7d;
+}
+
+/* ================================  Backgrounds -- START*/
+img.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overly-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+img.bg-img-x2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+img.bg-img-x3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* ============================ Overly Types */
+.overly-block.overly-1 {
+    background-color: #1a1a1a;
+    opacity: 82%;
+
+}
+.overly-block.overly-2 {
+    background-color: #1a1a1a;
+    opacity: 0.9;
+    z-index: -1;
+}
+.overly-block.overly-3 {
+    background-color: #1a1a1a;
+    opacity: 0.97;
+    z-index: -1;
+}
+
+/* ================================  Sections -- START*/
+.section{
+    padding: 90px 0;
+}
+.section-title{
+    margin-bottom: 60px;
+}
+.row{
+    max-width: 100%;
+}
+/* ================================  Sections -- END*/
+/* =============================================================== Created Default Class === END  */
+/* =========================================== TOP HEADER START ====================== */
+
+.site-header{
+    background-color: ffffff;
+}
+.top-header{
+    padding: 20px 0;
+}
+.top-header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-email a{
+    color: #1a1a1a;
+    margin-right: 60px;
+}
+.contact-email a i{
+    margin-right: 12px;
+    border: 1px solid #1a1a1a;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-top: 5px;
+}
+.bottom-header{
+    background-color: #f8f8f8;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.menu-name {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+a.menu-link {
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 20px;
+    display: inline-flex;
+    text-align: center;
+}
+a.menu-link:hover, li.menu-li.active a.menu-link {
+    background-color: #212121;
+    color: #fff;
+}
+.mobile-menu, .mob-menu{
+    display: none;
+}
+/* =========================================== HEADER END ====================== */
+/* ================================================= BANNER START ====================== */
+.banner-section{
+    min-height: 630px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+img.bann-img {
+    position: absolute;
+    right: 0;
+    bottom: -135px;
+}
+
+/* ================================================= BANNER END ====================== */
+/* ============================================= SECTION-X1 START ======================= */
+.exc-row{
+    margin-bottom: 30px;
+}
+.content-x1{
+    border: 1px dashed rgb(155, 155, 155);
+    padding: 40px 40px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.content-x1 .exc-cont{
+    flex: 1;
+}
+.content-x1 .exc-cont h3{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.icon-box {
+    padding-right: 40px;
+}
+.content-x1:hover{
+    background-color: #1a1a1a;
+    color: #fff;
+}
+.content-x1:hover .icon-box img{ filter: invert(1); }
+
+/* ============================================= SECTION-X1 END ======================= */
+
+/* ============================================== SECTION-X2 START ===================== */
+.content-sec-x2 h2 {
+    margin-bottom: 30px;
+}
+.img-sec-x2{
+    height: 100%;
+    object-fit: cover;
+    -webkit-box-shadow: -32px 30px 0px 0px rgba(247,250,248,1);
+    -moz-box-shadow: -32px 30px 0px 0px rgba(247,250,248,1);
+    box-shadow: -32px 30px 0px 0px rgba(247,250,248,1);
+}
+.img-box {
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img.logo-img-x2 {
+    width: 32px;
+}
+.serv-content h3 {
+    width: 50%;
+}
+.serv-content p{
+    width: 75%;
+    margin-bottom: 60px;
+}
+/* ============================================== SECTION-X2 END ===================== */
+/* ============================================== SECTION-X3 START ===================== */
+/* ============================================== SECTION-X3 END ===================== */
+/* ============================================== SECTION-X4 START ===================== */
+.section-x4 .content-x4{
+    color: #fff;
+}
+.section-x4 .content-x4 p {
+    width: 50%;
+    margin: 0 auto;
+}
+/* ============================================== SECTION-X4 END ===================== */
+/* ============================================== SECTION-X5 START ===================== */
+.row-x5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-x5 .image-wrap img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.news-item{
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.news-item .content-wrap {
+    padding: 30px 30px 50px 30px;
+}
+.news-item:hover {
+    transform: translateY(-20px);
+}
+/* ============================================== SECTION-X5 END ===================== */
+/* ============================================== FOOTER START ===================== */
+.site-footer{
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 0 0 40px 0;
+}
+.footer-logo{ filter: invert(1); }
+
+.site-footer .icon-item a{
+    margin-left: 8px;
+    border: 1px solid transparent;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #1a1a1a;
+}
+.site-footer .icon-item a:hover{
+    background-color: #7c7c7c;
+    color: #fff;
+}
+.site-footer .content-item a{
+    color: #fff;
+    display: inline-flex;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+input[type=text] {
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    background-color:#1a1a1a;
+    border: 1px solid #fff;
+    color: #fff;
+}
+input::placeholder{
+    color: #fff;
+    opacity: 0.6;
+}
+
+.footer-box {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0px auto 0px auto;
+    transform: translateY(-44px);
+}
+.footer-box .contact-email a{
+    color: #fff;
+}
+.footer-box .contact-email a i{
+    font-size: 30px;
+}
+.bottam-footer-content{
+    width: 100%;
+    border-top: 1px dotted #7c7c7c;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ============================================== FOOTER END ===================== */

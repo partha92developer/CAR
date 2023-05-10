@@ -1,0 +1,173 @@
+@media screen and (max-width: 1400px) {
+
+
+}
+@media screen and (max-width: 991px) {
+    html{
+        font-size: 8px;
+    }
+    .row, .row > div{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .nav-row, .contact-email{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    /* header.site-header {
+        padding: 15px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        width: 100%;
+        -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+    } */
+    .mob-menu{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(10, 9, 9, 0.95);
+        left: 0;
+        top: 0;
+        z-index: 999;
+        padding-top: 60px;
+        display: none;
+    }
+    .mob-menu a{ 
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    .close-menu {
+        color: #fff;
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+        font-size: 20px;
+        z-index: 99;
+    }
+    .img-wrap-x2 {
+        padding: 0 0 60px 30px;
+    }
+    .col-content.mobile-footer {
+        padding-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    /* ======================== SECTION BANNER START */
+    .banner-content h3{
+        font-size: 26px;
+    }
+    .banner-content h2{
+        font-size: 40px;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .butn-wrap {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /* ======================== SECTION BANNER END */
+    /* ======================== SECTION X1 START */
+    section.section.section-x1 {
+        padding-top: 150px;
+    }
+    .section-x1 .row.g-4.exc-row > div {
+        padding-bottom: 20px;
+    }
+    .section-x1 .content-x1{
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+    .section-x1 .content-x1 .exc-cont h3{
+        font-size: 20px;
+    }
+    .section-x1 .icon-box {
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+    /* ======================== SECTION X1 END */
+    
+    /* ====================== SECTION-X2 START */
+    .section-title {
+        text-align: center;
+    }
+    .section-x2 .content-sec-x2{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .serv-item-x2{
+        text-align: center;
+    }
+    .serv-content h3 {
+        width: 100%;
+    }
+    .serv-content p {
+        width: 100%;
+    }
+    /* ====================== SECTION-X2 END */
+    /* ====================== SECTION-X3 START */
+    .mobile-img-x3{
+        text-align: center;
+    }
+    /* ====================== SECTION-X3 END */
+    /* ====================== SECTION-X4 START */
+    .section-x4 h2{
+        margin-bottom: 20px;
+    }
+    .mobile-btn-x4{
+        margin-top: 30px;
+    }
+    .section-x4 .content-x4 p {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* ====================== SECTION-X4 END */
+    /* ====================== SECTION-X5 START */
+    .section-x5 .row.g-0.g-5 {
+        row-gap: 30px;
+    }
+    .mobile-content-x5{
+        text-align: center;
+    }
+    .mobile-btn-x5{
+        display: flex;
+        justify-content: center;
+    }
+    .mt-5 {
+        margin: 0 !important;
+    }
+    /* ====================== SECTION-X5 END */
+    /* ====================== FOOTER START */
+    .footer-box{
+        display: none;
+    }
+    .top-footer .icon-item{
+        margin-bottom: 10px;
+    }
+    .mobile-footer .butn-wrap{
+        margin-top: 15px;
+        /* justify-content: center; */
+    }
+    /* ====================== FOOTER END */
+}
